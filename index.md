@@ -36,6 +36,10 @@ This guide is meant for term 1 CST students.
 
 What you will be learning can be summarized as following:
 
+* Navigate through your Windows system using Command Prompt
+* How to setup git repository, and push files to the repository
+* Create program files using VIM text editor, and running them using via Command Prompt.
+
 ---
 
 ## Software Versions
