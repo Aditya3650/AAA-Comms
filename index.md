@@ -54,7 +54,7 @@ If you want to use a virtual machine, download the latest version of VirtualBox 
 
 ## Prerequisites
 
-In order to successfully complete this guide, please make sure you have the following listes items before starting:
+In order to successfully complete this guide, please make sure you have the following listed items before starting:
 
 - Access to a computer with a keyboard and mouse
 - Any version of Windows 11, preferably version 21H2
@@ -63,7 +63,7 @@ In order to successfully complete this guide, please make sure you have the foll
 
 ---
 
-## Why Learn Linux
+## Why Learn Command Prompt
 Microsoft’s Windows is the most widely used computer operating system in the world, accounting for 69.61 percent share of the desktop, tablet, and console OS market in December 2021 according to [statista](https://www.statista.com/statistics/268237/global-market-share-held-by-operating-systems-since-2009/).
 
 ---
