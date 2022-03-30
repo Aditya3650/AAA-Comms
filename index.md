@@ -13,13 +13,19 @@ permalink: /
 
 ---
 
-....
+Microsoft Command Prompt is a program that allows users to interact with the operating system using a set of short commands. We can use Command Prompt to create files, create folders, connect to a wifi connection, and all sorts of stuff. Virtually every functionality of Windows can be accomplished using Command Prompt. This guide teaches you how to navigate through Windows file system, how to create a Github repository, and how to install and use Command Prompt’s text editor.
+
+This guide assumes that you have a Windows machine and you know how to use it. We assume you can perform casual tasks such as opening a file, creating a folder, and installing programs on your machine. In addition, we assume you already know what Gittub and Git are and you know how to use them. 
 
 ---
 
 ### Table of contents
 {: .no_toc .text-delta }
-* TOC
+* Is This Guide For You
+* Software Versions
+* Why Learn Linux
+* Typographical Conventions
+* Conclusion
 {:toc}
 
 ---
@@ -29,11 +35,6 @@ permalink: /
 This guide is meant for term 1 CST students.
 
 What you will be learning can be summarized as following:
-
-* Navigate through your Windows system
-* Create and modify directories
-* Create and modify local git repositories
-* Delete files and folders.
 
 ---
 
