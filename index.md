@@ -19,7 +19,7 @@ This guide assumes that you have a Windows machine and you know how to use it. W
 
 ---
 
-### Table of contents
+## Table of contents
 {: .no_toc .text-delta }
 * Is This Guide For You
 * Software Versions
