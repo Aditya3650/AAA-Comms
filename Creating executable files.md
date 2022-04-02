@@ -40,6 +40,9 @@ Following is a list of command that will be used in this portion of the guide.
 | `:q`                              | Quits Vim.                                                                                              |
 | `:q!`                             | Quits Vim without saving.                                                                               |
 
+**Note:** Text inside `[]` is optional.
+**Note:** `.extention` is optional, however for the purpose of this guide we will `.java` or `.c`.
+
 ---
 
 ## How to open Vim
