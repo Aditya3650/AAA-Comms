@@ -13,9 +13,9 @@ permalink: /docs/Creating executable files
 
 ---
 
-In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor in order to; create C and java files, how to insert code onto such files, how to save them on your computer, and consequently, how to execute the files on your machine.
-To downloand the latest version of Vim on your Windows computer visit [here].(https://www.vim.org/download.php)
->**Note:** You must complete Vim installation in order to proceed from this point.
+In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor in order to; create `C` and `java` files, how to insert code onto such files, how to save them on your computer, and consequently, how to execute the files on your machine.
+To downloand the latest version of Vim on your Windows computer visit [here](https://www.vim.org/download.php).
+>**Note:** You must fully complete Vim installation in order to proceed.
 
 ---
 
@@ -23,6 +23,22 @@ To downloand the latest version of Vim on your Windows computer visit [here].(ht
 {: .no_toc .text-delta }
 * TOC
 {:toc}
+
+---
+
+## Command Table
+
+Following is a list of command that will be used in this portion of the guide.
+<br/>
+
+| Command                           | Description                                                                                             |
+| :--------                         | :------------------------------------------------------------------------------------------------------ |
+| `vim [fileName].extention`        | Creates `[fileName].extention` if does not exist, and opens `[fileName].extention` for editing.         |
+| `:e [fileName]`                   | Opens `[fileName]` for editing.                                                                         |
+| `:w`                              | Saves the content written to the file.                                                                  |
+| `:sav [fileName].txt`             | Saves the file as `[fileName].txt`                                                                      |
+| `:q`                              | Quits Vim.                                                                                              |
+| `:q!`                             | Quits Vim without saving.                                                                               |
 
 ---
 
@@ -48,23 +64,6 @@ Image goes here!
 ***Success***
 
 ---
-
-## Command Table
-
-Following is a list of command that will be used in this portion of the guide.
-<br/>
-
-| Command                           | Description                                                                                             |
-| :--------                         | :------------------------------------------------------------------------------------------------------ |
-| `vim [fileName].extention`        | Creates `[fileName].extention` if does not exist, and opens `[fileName].extention` for editing.         |
-| `:e [fileName]`                   | Opens `[fileName]` for editing.                                                                         |
-| `:w`                              | Saves the content written to the file.                                                                  |
-| `:sav [fileName].txt`             | Saves the file as `[fileName].txt`                                                                      |
-| `:q`                              | Quits Vim.                                                                                              |
-| `:q!`                             | Quits Vim without saving.                                                                               |
-
----
-
 ## How To Create A File
 
 There are many several way you can create a new file using Vim. We will focus on the ones we introduced earlier in the command table, namely `vim [fileName].extention` and `:sav [fileName].txt`.
@@ -113,6 +112,7 @@ Image goes here!
 Image goes here!
 <br/>
 <br/>
+***Success***
 <br/>
 The second approach uses Vim interface to save the file after putting all the contents of it first.
 <br/>
@@ -137,3 +137,4 @@ Image goes here!
 Image goes here!
 <br/>
 <br/>
+***Success***
