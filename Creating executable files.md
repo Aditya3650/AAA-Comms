@@ -54,14 +54,14 @@ Image goes here!
 Following is a list of command that will be used in this portion of the guide.
 <br/>
 
-| Command                     | Description                                                                                             |
-| :--------                   | :------------------------------------------------------------------------------------------------------ |
-| `vim [fileName].extention`  | Creates `[fileName].extention` if does not exist, and opens `[fileName].extention` for editing.         |
-| `:e [fileName]`             | Opens `[fileName]` for editing.                                                                         |
-| `:w`                        | Saves the content written to the file.                                                                  |
-| `:sav [fileName].txt`       | Saves the file as `[fileName].txt`                                                                      |
-| `:q`                        | Quits Vim.                                                                                              |
-| `:q!`                       | Quits Vim without saving.                                                                               |
+| Command                           | Description                                                                                             |
+| :--------                         | :------------------------------------------------------------------------------------------------------ |
+| `vim [fileName].extention`        | Creates `[fileName].extention` if does not exist, and opens `[fileName].extention` for editing.         |
+| `:e [fileName]`                   | Opens `[fileName]` for editing.                                                                         |
+| `:w`                              | Saves the content written to the file.                                                                  |
+| `:sav [fileName].txt`             | Saves the file as `[fileName].txt`                                                                      |
+| `:q`                              | Quits Vim.                                                                                              |
+| `:q!`                             | Quits Vim without saving.                                                                               |
 
 ---
 
