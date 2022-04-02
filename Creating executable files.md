@@ -26,7 +26,7 @@ To downloand the latest version of Vim on your Windows computer visit [here](htt
 
 ---
 
-## Command Table
+## Useful Commands
 
 Following is a list of command that will be used in this portion of the guide.
 <br/>
