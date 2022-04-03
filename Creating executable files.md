@@ -13,19 +13,19 @@ permalink: /docs/Creating executable files
 
 ---
 
-In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor in order to;
+As command prompt allows you to accomplish regular tasks on your machine by simply utilizing the keyboard, it is fair to mention that coding is also possible using the command prompt interface. In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor in order to;
 <br/>
-**1.** Create `C` and `java` files
+**1.** Create `C` or `java` file
 <br/>
-**2.** How to insert code onto such files
+**2.** How to write code into `.c` or `.java` file
 <br/>
-**3.** How to save such files on your computer
+**3.** How to save a file
 <br/>
-**4.** And consequently, how to execute such files on your machine.
+**4.** And consequently, how to compile and execute the file on your machine.
 <br/>
 <br/>
 *To downloand the latest version of Vim on your Windows computer visit [here](https://www.vim.org/download.php).*
->**Note:** You must fully complete Vim installation in order to proceed.
+>**Note:** You must complete installation of Vim text editor in your computer in order to proceed.
 
 ---
 
@@ -38,22 +38,35 @@ In this section of the guide we will be using Vim (Vi Improved), a screen-based 
 
 ## Useful Commands
 
-The following is a list of commands that will be used in this section.
+There are two type of commands that will be used to guide you through this demo. The first catagory of the commands belong to command prompt. The second catagory of command belong to the Vim text editor.
+<br/>
+<br/>
+**1.** The following is a list of commmand prompt commands that will be used in this section.
+<br/>
+>| Command                           | Description                                                                                             |
+>| :--------                         | :------------------------------------------------------------------------------------------------------ |
+>| `vim [fileName].extention`        | Creates `[fileName].extention` if does not exist, and opens `[fileName].extention` for editing.         |
+>| `gcc -o [optional] [fileName].c`  | Compiles the file `fileName.c` and creates and creates an executable file named `[optional]`.           |
+>| `./[optional]`                    | Executes the executable file named `[optional]`.                                                        |
+>| `javac [Optional].java`           | Compiles the java file named `[Optional].java` and creates and executable file named `Optional.class`   |
+>| `java [Optional]`                 | Executes the `[Optional].class` executable file.                                                        |
+<br/>
+<br/>
+**2.** The following is a list of Vim commands that will be used in this section.
 <br/>
 
-| Command                           | Description                                                                                             |
-| :--------                         | :------------------------------------------------------------------------------------------------------ |
-| `vim [fileName].extention`        | Creates `[fileName].extention` if does not exist, and opens `[fileName].extention` for editing.         |
-| `:e [fileName]`                   | Opens `[fileName]` for editing.                                                                         |
-| `:w`                              | Saves the content written to the file.                                                                  |
-| `:sav [fileName].txt`             | Saves the file as `[fileName].txt`                                                                      |
-| `:q`                              | Quits Vim.                                                                                              |
-| `:q!`                             | Quits Vim without saving.                                                                               |
+>| Command                           | Description                                                                                             |
+>| :--------                         | :------------------------------------------------------------------------------------------------------ |
+>| `:e [fileName]`                   | Opens `[fileName]` for editing.                                                                         |
+>| `:w`                              | Saves the content written to the file.                                                                  |
+>| `:sav [fileName].txt`             | Saves the file as `[fileName].txt`                                                                      |
+>| `:q`                              | Quits Vim.                                                                                              |
+>| `:q!`                             | Quits Vim without saving.                                                                               |
 
 <br/>
->**Note:** Text inside `[]` is optional.
+>**Note:** The text inside `[...]` is optional.
 <br/>
->**Note:** `.extention` is optional, however for the purpose of this guide we will use `.java` or `.c`.
+>**Note:** `.extention` is and example, however for the purpose of this guide we will use `.java` or `.c`.
 
 ---
 
@@ -64,17 +77,20 @@ Once the installation process is finished, in order to open Vim:
 <br/>
 **1.** Using command prompt navigate to the desired folder location on your machine
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **2.** Type in `vim`, and press `Enter`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **3.** After perssing `Enter` the Vim text editor will open.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 ***Success***
@@ -90,12 +106,14 @@ In order to create the file and name it before putting its contents inside of it
 <br/>
 **1.** After opening command prompt and navgiating to the desired location type in `vim [fileName].extention`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **2.** Once you have choosen a file name and the appropriate extention press `Enter` on your keyboard.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 *For the purpose of this demo we will use `.c` or `.java`*
@@ -103,27 +121,32 @@ Image goes here!
 <br/>
 **3.** After pressing `Enter` the Vim text editor will open.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **4.** Press `i` to enter insert mode.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **5.** To exit insert mode press `Esc`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **6.** To save the file and the contents of it, type in `:w`. Alternatively to quit Vim wihtout saving the file, type in `:q!` and press `Enter`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **7.** In order to quit Vim type in `:q` and press `Enter`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 ***Success***
@@ -134,27 +157,32 @@ The second approach uses Vim interface to save the file after putting all the co
 <br/>
 **1.** In the command prompt type in `vim` and press `Enter`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **2.** To enter insert mode press `i`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **3.** To exit insert mode press `Esc`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **4.** Now, type in `:sav [fileName].extention` to save the file with the given extention and press `Enter`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **5.** To quit vim type in `:q` and press `Enter`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 ***Success***
@@ -162,19 +190,21 @@ Image goes here!
 
 ---
 
-## How To Execute A File
+## How To Compile And Execute A File
 
 To execute a `.c` file:
 <br/>
 <br/>
 **1.** Type in `gcc -o optional fileName.c` in the command prompt where the `.c` file is located, and press `Enter`. This will create an executable file named `optional`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **2.** In order to run the executable file in your machine, in the same directory type in `./optional` and press `Enter`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 <br/>
@@ -186,12 +216,14 @@ To execute a `.java` file:
 <br/>
 **1.** Type in `javac Optional.java` in the command prompt where the `.java` file is located, and press `Enter`. This will create an executable file with the same name as `Optional.class`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 **2.** In order to run the executable file in your machine, in the same directory type in `java Optional` and press `Enter`.
 <br/>
-Image goes here!
+<br/>
+*Image goes here!*
 <br/>
 <br/>
 ***Success***
