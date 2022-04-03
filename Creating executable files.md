@@ -13,7 +13,16 @@ permalink: /docs/Creating executable files
 
 ---
 
-In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor in order to; create `C` and `java` files, how to insert code onto such files, how to save them on your computer, and consequently, how to execute the files on your machine.
+In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor in order to;
+<br/>
+*1.* Create `C` and `java` files
+<br/>
+*2.* How to insert code onto such files
+<br/>
+*3.* How to save such files on your computer
+<br/>
+*4.* And consequently, how to execute such files on your machine.
+<br/>
 To downloand the latest version of Vim on your Windows computer visit [here](https://www.vim.org/download.php).
 >**Note:** You must fully complete Vim installation in order to proceed.
 
@@ -28,7 +37,7 @@ To downloand the latest version of Vim on your Windows computer visit [here](htt
 
 ## Useful Commands
 
-Following is a list of command that will be used in this portion of the guide.
+The following is a list of commands that will be used in this section.
 <br/>
 
 | Command                           | Description                                                                                             |
@@ -40,8 +49,10 @@ Following is a list of command that will be used in this portion of the guide.
 | `:q`                              | Quits Vim.                                                                                              |
 | `:q!`                             | Quits Vim without saving.                                                                               |
 
-**Note:** Text inside `[]` is optional.
-**Note:** `.extention` is optional, however for the purpose of this guide we will `.java` or `.c`.
+<br/>
+>**Note:** Text inside `[]` is optional.
+<br/>
+>**Note:** `.extention` is optional, however for the purpose of this guide we will use `.java` or `.c`.
 
 ---
 
@@ -49,17 +60,18 @@ Following is a list of command that will be used in this portion of the guide.
 
 Once the installation process is finished:
 <br/>
+<br/>
 **1.** Using command prompt navigate to the desired folder
 <br/>
 Image goes here!
 <br/>
 <br/>
-**2.** In order to create your new `.c` or `.java` file write the command `vim` in command prompt.
+**2.** Type in `vim`, and press `Enter`.
 <br/>
 Image goes here!
 <br/>
 <br/>
-**3.** After you type in the command, press `Enter`.
+**3.** After perssing `Enter` the Vim text editor will open.
 <br/>
 Image goes here!
 <br/>
@@ -116,6 +128,7 @@ Image goes here!
 <br/>
 <br/>
 ***Success***
+<br/>
 <br/>
 The second approach uses Vim interface to save the file after putting all the contents of it first.
 <br/>
