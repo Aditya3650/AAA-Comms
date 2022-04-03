@@ -117,7 +117,7 @@ In order to create the file and name it before putting its contents inside of it
 <br/>
 <br/>
 >***For the purpose of this demo we will use `.c` or `.java`***
-<br/>
+<<br/>
 <br/>
 *Image goes here!*
 <br/>
@@ -137,7 +137,7 @@ At this point the Vim text editor interface must open in command prompt window.
 *Image goes here!*
 <br/>
 <br/>
-**5.** To save the file and the contents of it, type in `:w`. Alternatively to quit Vim wihtout saving the file, type in `:q!`, and press `Enter`.
+**5.** To save the file and the contents of it, type in `:w`. Alternatively to quit Vim without saving the file, type in `:q!`, and press `Enter`.
 <br/>
 <br/>
 *Image goes here!*
@@ -180,7 +180,7 @@ The second approach uses Vim interface to save the file after putting all the co
 <br/>
 <br/>
 >**Note:** We will use `.c` or `.java` for the purpose of this demo.
-<br/>
+<<br/>
 <br/>
 **5.** To quit vim type in `:q` and press `Enter`.
 <br/>
