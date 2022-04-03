@@ -13,19 +13,20 @@ permalink: /docs/Creating executable files
 
 ---
 
-As command prompt allows you to accomplish regular tasks on your machine by simply utilizing the keyboard, it is fair to mention that coding is also possible using the command prompt interface. In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor in order to;
+As command prompt allows you to accomplish regular tasks on your machine by simply utilizing the keyboard, it is fair to mention that coding is also possible using the command prompt interface. In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor to;
 <br/>
-**1.** Create `C` or `java` file
 <br/>
-**2.** How to write code into `.c` or `.java` file
+**1.** Create a `C` or `java` file
 <br/>
-**3.** How to save a file
+**2.** Write code into `.c` or `.java` file
 <br/>
-**4.** And consequently, how to compile and execute the file on your machine.
+**3.** Save a file
+<br/>
+**4.** And consequently, compile and execute a `.c` or `.java` file on your machine.
 <br/>
 <br/>
 *To downloand the latest version of Vim on your Windows computer visit [here](https://www.vim.org/download.php).*
->**Note:** You must complete installation of Vim text editor in your computer in order to proceed.
+>**Note:** You must complete installation of Vim text editor on your machine in order to proceed.
 
 ---
 
@@ -43,6 +44,7 @@ There are two type of commands that will be used to guide you through this demo.
 <br/>
 **1.** The following is a list of commmand prompt commands that will be used in this section.
 <br/>
+
 >| Command                           | Description                                                                                             |
 >| :--------                         | :------------------------------------------------------------------------------------------------------ |
 >| `vim [fileName].extention`        | Creates `[fileName].extention` if does not exist, and opens `[fileName].extention` for editing.         |
@@ -50,6 +52,7 @@ There are two type of commands that will be used to guide you through this demo.
 >| `./[optional]`                    | Executes the executable file named `[optional]`.                                                        |
 >| `javac [Optional].java`           | Compiles the java file named `[Optional].java` and creates and executable file named `Optional.class`   |
 >| `java [Optional]`                 | Executes the `[Optional].class` executable file.                                                        |
+
 <br/>
 <br/>
 **2.** The following is a list of Vim commands that will be used in this section.
