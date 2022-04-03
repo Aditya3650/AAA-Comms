@@ -116,8 +116,9 @@ In order to create the file and name it before putting its contents inside of it
 *Image goes here!*
 <br/>
 <br/>
->***For the purpose of this demo we will use `.c` or `.java`***
-<<br/>
+>***For the purpose of this demo we will use `.c` or `.java`.***
+
+<br/>
 <br/>
 *Image goes here!*
 <br/>
@@ -180,7 +181,8 @@ The second approach uses Vim interface to save the file after putting all the co
 <br/>
 <br/>
 >**Note:** We will use `.c` or `.java` for the purpose of this demo.
-<<br/>
+
+<br/>
 <br/>
 **5.** To quit vim type in `:q` and press `Enter`.
 <br/>
