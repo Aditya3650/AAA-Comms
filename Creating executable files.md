@@ -126,11 +126,6 @@ Image goes here!
 Image goes here!
 <br/>
 <br/>
-**8.** To compile the source file in `C` or `java`(depending on the language used in the file) type in the compiler name; `gcc [fileName].extention` for `C` or `javac [fileName].extention` for `java`.
-<br/>
-Image goes here!
-<br/>
-<br/>
 ***Success***
 <br/>
 <br/>
@@ -138,6 +133,11 @@ The second approach uses Vim interface to save the file after putting all the co
 <br/>
 <br/>
 **1.** In the command prompt type in `vim` and press `Enter`.
+<br/>
+Image goes here!
+<br/>
+<br/>
+**2.** To enter insert mode press `i`.
 <br/>
 Image goes here!
 <br/>
@@ -179,6 +179,7 @@ Image goes here!
 <br/>
 <br/>
 ***Success***
+<br/>
 <br/>
 To execute a `.java` file:
 <br/>
