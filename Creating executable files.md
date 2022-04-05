@@ -25,7 +25,7 @@ As command prompt allows you to accomplish regular tasks on your machine by simp
 **4.** And consequently, compile and execute a `.c` or `.java` file on your machine.
 <br/>
 <br/>
-*To downloand the latest version of Vim on your Windows computer visit [here](https://www.vim.org/download.php).*
+*To download the latest version of Vim on your Windows computer visit [here](https://www.vim.org/download.php).*
 >**Note:** You must complete installation of Vim text editor on your machine in order to proceed.
 
 ---
