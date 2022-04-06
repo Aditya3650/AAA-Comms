@@ -10,9 +10,9 @@ nav_order: 4
 
 In this section you will learn basic Git commands, and how to create a Github repository using command prompt. 
 <br/>
-In order to be able to use Github you must first sign up for a Github account. Please refer to the following link to signup for a [Github] (https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)account.
+In order to be able to use Github you must first sign up for a Github account. Please refer to the following link to signup for a [Github](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) account.
 <br/>
-Once you have signed up for a Github account, you must install Git on your machine. Please refer to the following link to install [Git] (https://git-scm.com/downloads)on your machine.
+Once you have signed up for a Github account, you must install Git on your machine. Please refer to the following link to install [Git](https://git-scm.com/downloads) on your machine.
 
 ---
 
@@ -52,7 +52,6 @@ In order to do the aforementioned tasks please perform the following step:
 >`git config --global user.name <Your name here>`
 
 <br/>
-<br/>
 *Image goes here!*
 <br/>
 <br/>
@@ -61,7 +60,6 @@ In order to do the aforementioned tasks please perform the following step:
 <br/>
 >`git config --global user.email <your_email@example.com>`
 
-<br/>
 <br/>
 *Image goes here!*
 <br/>
@@ -72,14 +70,14 @@ In order to do the aforementioned tasks please perform the following step:
 *Image goes here!*
 <br/>
 <br/>
-***Success***
-<br/>
-<br/>
 Once you have entered your credentials, you can double check your credentials by typing the following command on Command Prompt:
 <br/>
 <br/>
 >`git config --global -list`
 
+<br/>
+<br/>
+***Success***
 
 ---
 
@@ -108,7 +106,6 @@ To create a Github repository do the following steps:
 >`mkdir <file name>`
 
 <br/>
-<br/>
 *Image goes here!*
 <br/>
 <br/>
@@ -117,7 +114,6 @@ To create a Github repository do the following steps:
 <br/>
 >`cd <file name>`
 
-<br/>
 <br/>
 *Image goes here!*
 <br/>
@@ -143,7 +139,6 @@ To push a file to the Github cloud you must add that folder to the cache. Then y
 >`git add <file name>`
 
 <br/>
-<br/>
 *Image goes here!*
 <br/>
 <br/>
@@ -153,13 +148,14 @@ To push a file to the Github cloud you must add that folder to the cache. Then y
 >`git commit -m"message explaining your intention for making a change"`
 
 <br/>
-<br/>
 *Image goes here!*
+<br/>
+<br/>
+**3.** Push your file to cloud.
 <br/>
 <br/>
 >`git push`
 
-<br/>
 <br/>
 *Image goes here!*
 <br/>
