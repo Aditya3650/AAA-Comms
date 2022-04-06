@@ -38,4 +38,3 @@ nav_order: 5
 <br/>
 **Vim Control Mode:** Vim’s mode for performing control operations.
 
----
