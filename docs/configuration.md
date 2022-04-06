@@ -11,7 +11,7 @@ In this section you will be introduced to the concept of file system and how Win
 
 A file system specifies how files and folders are stored and retrieved from a storage device such as a hard drive or a solid state drive. Different operating systems use different file systems. That is, a file system on a windows machine is different from a file system on a MacBook. In this guide, we will explain the file system structure on Windows operating system, and how command prompt can be used to interact with Windows operating system.
 
-{: .fs-6 .fw-300 }
+---
 
 ### Table Of Contents
 {: .no_toc .text-delta }
