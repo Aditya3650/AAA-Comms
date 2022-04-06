@@ -1,124 +1,172 @@
 ---
 layout: default
-title: Customization
-nav_order: 6
+title: Create A Github Repository Using Command Prompt
+nav_order: 4
+
 ---
 
-# Customization
+# Create A Github Repository Using Command Prompt
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
+In this section you will learn basic Git commands, and how to create a Github repository using command prompt. 
+<br/>
+In order to be able to use Github you must first sign up for a Github account. Please refer to the following link to signup for a [Github] (https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)account.
+<br/>
+Once you have signed up for a Github account, you must install Git on your machine. Please refer to the following link to install [Git] (https://git-scm.com/downloads)on your machine.
 
-1. TOC
+---
+
+### Table Of Contents
+{: .no_toc .text-delta }
+* TOC
 {:toc}
 
 ---
 
-## Color schemes
+## Useful Commands
 
-{: .d-inline-block }
+>| Command                           | Description                                                                                             |
+>| :--------                         | :------------------------------------------------------------------------------------------------------ |
+>| `tobeadded`                       | ...                                                                                                     |
+>| `tobeadded`                       | ...                                                                                                     |
+>| `tobeadded`                       | ...                                                                                                     |
+>| `tobeadded`                       | ...                                                                                                     |
+>| `tobeadded`                       | ...                                                                                                     |
 
-New
-{: .label .label-green }
+---
 
-Just the Docs supports two color schemes: light (default), and dark.
+## How to configure Git On Your Machine
 
-To enable a color scheme, set the `color_scheme` parameter in your site's `_config.yml` file:
+When you have installed Git on your machine you must set it up by entering your credentials. You will need to enter your full name and your email account that you used to sign up for a Github account. Once you have entered your credentials, an email will be sent to the email account you used to authenticate your identity.
+<br/>
+<br/>
+In order to do the aforementioned tasks please perform the following step:
+<br/>
+<br/>
+**1.** Open Command Prompt.
+<br/>
+<br/>
+**2.** Type the command:
+<br/>
+<br/>
+>`git config --global user.name <Your name here>`
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+**3.** Type the command:
+<br/>
+<br/>
+>`git config --global user.email <your_email@example.com>`
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+**4.** Go to your email account, find the email from Git and authenticate your identity.
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+***Success***
+<br/>
+<br/>
+Once you have entered your credentials, you can double check your credentials by typing the following command on Command Prompt:
+<br/>
+<br/>
+>`git config --global -list`
 
-#### Example
-{: .no_toc }
+---
 
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
+## How To Create A Github Repository
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+In order to create a Github Repository, you must first make a folder/directory that will be used as a Github repository.
+<br/>
+To create a Github repository do the following steps:
+<br/>
+<br/>
+**1.** Open Command Prompt.
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+**2.** Navigate to the desired directory where you want to store the Github repository.
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+**3.** Use the “mkdir” command to create a new folder.
+<br/>
+<br/>
+>`mkdir <file name>`
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+**4.** Go to the directory you created.
+<br/>
+<br/>
+>`cd <file name>`
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+Once you are within the directory/folder you created for your Github repository, you must turn that directory into a Github repository. To do so must type command `git init`. When you type the initialize command, the directory you created turns into a Github repository.
+<br/>
+Inside this new repository, there is a folder named “.git”. This folder stores the internal files and information Git and Github use to function.
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+**Caution** Do not touch this folder.
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+---
 
-## Custom schemes
+## How To Push A File To Github
 
-### Define a custom scheme
+Now that you have a Github repository, you can create new files and folders inside the Github repository, and you can push these files and folders to the Github cloud.  
+<br/>
+To push a file to the Github cloud you must add that folder to the cache. Then you must commit the content of the cache to the Git version control system with a message. Then you must push the files you committed to the Github cloud. To do the preceding please perform the following steps:
+<br/>
+<br/>
+**1.** Add the file to local repository.
+<br/>
+<br/>
+>`git add <file name>`
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+**2.** Commit the file.
+<br/>
+<br/>
+>`git commit -m"message explaining your intention for making a change"`
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+>`git push`
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
+When you perform the following preceding steps, you will be able to view the new files/folders on Github’s server by logging to your Github account through your browser.
+<br/>
+<br/>
+*Image goes here!*
+<br/>
+<br/>
 
-You can add custom schemes.
-If you want to add a scheme named `foo` (can be any name) just add a file `_sass/color_schemes/foo.scss` (replace `foo` by your scheme name)
-where you override theme variables to change colors, fonts, spacing, etc.
+---
 
-Available variables are listed in the [\_variables.scss](https://github.com/just-the-docs/just-the-docs/tree/main/_sass/support/_variables.scss) file.
+## Conclusion
 
-For example, to change the link color from the purple default to blue, include the following inside your scheme file:
-
-#### Example
-{: .no_toc }
-
-```scss
-$link-color: $blue-000;
-```
-
-_Note:_ Editing the variables directly in `_sass/support/variables.scss` is not recommended and can cause other dependencies to fail.
-Please use scheme files.
-
-### Use a custom scheme
-
-To use the custom color scheme, only set the `color_scheme` parameter in your site's `_config.yml` file:
-
-```yaml
-color_scheme: foo
-```
-
-### Switchable custom scheme
-
-If you want to be able to change the scheme dynamically, for example via javascript, just add a file `assets/css/just-the-docs-foo.scss` (replace `foo` by your scheme name)
-with the following content:
-
-{% raw %}
-    ---
-    ---
-    {% include css/just-the-docs.scss.liquid color_scheme="foo" %}
-{% endraw %}
-
-This allows you to switch the scheme via the following javascript.
-
-```js
-jtd.setTheme("foo")
-```
-
-## Override and completely custom styles
-
-For styles that aren't defined as variables, you may want to modify specific CSS classes.
-Additionally, you may want to add completely custom CSS specific to your content.
-To do this, put your styles in the file `_sass/custom/custom.scss`.
-This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied.
-
-For example, if you'd like to add your own styles for printing a page, you could add the following styles.
-
-#### Example
-{: .no_toc }
-
-```scss
-// Print-only styles.
-@media print {
-  .side-bar,
-  .page-header {
-    display: none;
-  }
-  .main-content {
-    max-width: auto;
-    margin: 1em;
-  }
-}
-```
+To conclude, we learned how to interact with Git and Github from CMD. We installed Git and signed up for a Github account. We configured Git by entering our credentials. In addition, we initialized a Git repository. We added files to cache, we committed the files to Git source control and we pushed the files to the Github cloud. Next, we will learn how to use the Vim text editor.
+<br/>
+<br/>
