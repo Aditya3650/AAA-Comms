@@ -7,9 +7,9 @@ nav_order: 2
 # Navigate Through Windows File System
 {: .no_toc }
 
-In this section you will be introduced to the concept of file system and how Windows file system is structured. Then you will learn how to use command prompt to interact with Windows File System. 
+In this section we will introduce the concept of file system and how Windows file system is structured. After that, we will learn how to use command prompt to interact with Windows File System. 
 
-A file system specifies how files and folders are stored and retrieved from a storage device such as a hard drive or a solid state drive. Different operating systems use different file systems. That is, a file system on a windows machine is different from a file system on a MacBook. In this guide, we will explain the file system structure on Windows operating system, and how command prompt can be used to interact with Windows operating system.
+A file system specifies how files and folders are stored and retrieved from memory. Different operating systems use different file systems. It means that a file system on a windows machine is different from a file system on a MacBook. In this guide, we will explain the file system structure on Windows operating system, and how Command Prompt can be used to interact with Windows operating system.
 
 ---
 
@@ -33,23 +33,24 @@ A file system specifies how files and folders are stored and retrieved from a st
 ---
 
 ## Explanation Of Absolute And Relative Path
-To begin with, Windows uses a hierarchical file system structure. That is, various folders/directories nested within other folders/directories. The folder that is on the top of the hierarchy is called the root folder. The root folder on Windows is called “C” directory. This directory is the highest directory and contains other folders and files on Windows. 
+Windows uses a hierarchical file system structure. Various folders (also referred to as directories0 nested within other folders. The folder that is on the top of the hierarchy is called the root folder. The root folder on Windows is called “C” directory. This is the highest directory and contains other folders and files on Windows. 
 
-C directory contains files and folders that windows uses to function. Deleting or altering the aforementioned files and directories may cause the operating system to crash and result in a total data loss. So C directory is not a directory to mess around with. 
+*insert warning here*
+C directory contains files and folders that Windows uses to operate. Deleting or altering the aforementioned files and directories may cause the operating system to crash and could potentially result in a total data loss. Do not mess around with files in the C directory. 
 
-C directory also contains a folder called “Users”. “Users” folder contains the user accounts on your computer. These user accounts are stored as folders. Each of these User account folders contains the files and folders that casual users use to interact with Windows. These folders include  Desktop folder, Downloads folder, Documents folder and Pictures.
+C directory also contains a folder called “Users”. It contains the user accounts on your computer. These user accounts are stored as folders. Each of these User account folders contains the files and folders that casual users use to interact with Windows. These folders include Desktop folder, Downloads folder, Documents folder and Pictures.
 
 Windows uses a thing called a path to indicate the hierarchical relationship between various directories. A path indicates where a folder is stored with respect to another directory that is higher up the hierarchy. In other words, a path indicates how many levels below a higher directory a lower directory is stored. See the following for an example of a path:
 
 *`C:\Users\tom\Desktop`
 
-The preceding path indicates that there is a folder called “Users” within a folder called “C”. And that there is a folder called “tom” within the “Users” folder, and that there is a folder called “Desktop” within the “tom” folder. As you can see, there is a hierarchical relationship between these folders in the path. That is, these folders are nested within each other. 
+The aforementioned line indicates that there is a folder called “Users” within a folder called “C”, and that there is a folder called “tom” within the “Users” folder, and that there is a folder called “Desktop” within the “tom” folder. As you can see, there is a hierarchical relationship between these folders in the path. That is, these folders are nested within each other. 
 
-There are two types of paths on Windows. Absolute path and relative path. The preceding path shown is an example of an absolute path. An absolute path specifies a folder’s location with respect to the root directory or the C directory.
+There are two types of paths on Windows. Absolute path and relative path. The path shown above is an example of an absolute path. An absolute path specifies the location of the folder with respect to the root directory or the C directory.
 
 On the other hand, a relative path specifies the path with respect to some other directory higher up the hierarchy but not the root directory. That is, if two directories are stored within the same directory and we want to go from the first directory to the second directory, we do not have to necessarily provide the absolute path of the second directory. We can just provide the relative path to the directory that contains these two directories to switch to the second directory.   
 
-Now that you have understood the file system structure on Windows, you will be introduced to Command Prompt commands that can be used to navigate through Windows’ file system.
+Now that we have discussed the file system structure on Windows, we will introduce some Command Prompt commands that can be used to navigate through the file system on Windows.
 
 ---
 
