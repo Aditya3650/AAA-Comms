@@ -50,6 +50,7 @@ In order to do the aforementioned tasks please perform the following step:
 <br/>
 <br/>
 >`git config --global user.name <Your name here>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -59,6 +60,7 @@ In order to do the aforementioned tasks please perform the following step:
 <br/>
 <br/>
 >`git config --global user.email <your_email@example.com>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -77,6 +79,7 @@ Once you have entered your credentials, you can double check your credentials by
 <br/>
 <br/>
 >`git config --global -list`
+
 
 ---
 
@@ -103,6 +106,7 @@ To create a Github repository do the following steps:
 <br/>
 <br/>
 >`mkdir <file name>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -112,6 +116,7 @@ To create a Github repository do the following steps:
 <br/>
 <br/>
 >`cd <file name>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -136,6 +141,7 @@ To push a file to the Github cloud you must add that folder to the cache. Then y
 <br/>
 <br/>
 >`git add <file name>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -145,12 +151,14 @@ To push a file to the Github cloud you must add that folder to the cache. Then y
 <br/>
 <br/>
 >`git commit -m"message explaining your intention for making a change"`
+
 <br/>
 <br/>
 *Image goes here!*
 <br/>
 <br/>
 >`git push`
+
 <br/>
 <br/>
 *Image goes here!*
