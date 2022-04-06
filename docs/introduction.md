@@ -15,7 +15,7 @@ permalink: /
 
 Microsoft Command Prompt is a program that allows users to interact with the operating system using a set of short commands. We can use Command Prompt to create files, create folders, connect to a wifi connection, and all sorts of stuff. Virtually every functionality of Windows can be accomplished using Command Prompt. This guide teaches you how to navigate through Windows file system, how to create a Github repository, and how to install and use Command Prompt’s text editor.
 
-This guide assumes that you have a Windows machine and you know how to use it. We assume you can perform casual tasks such as opening a file, creating a folder, and installing programs on your machine. In addition, we assume you already know what Gittub and Git are and you know how to use them. 
+This guide assumes that you have a Windows machine and you know how to use it. We assume you can perform casual tasks such as opening a file, creating a folder, and installing programs on your machine. In addition, we assume you are already familiar with using Git and Github. 
 
 ---
 
@@ -32,19 +32,19 @@ This guide assumes that you have a Windows machine and you know how to use it. W
 
 ## Is This Guide For You
 
-This guide is meant for term 1 CST students.
+The guide is targeted towards CST students starting term 1.
 
 What you will be learning can be summarized as following:
 
-* Navigate through your Windows system using Command Prompt
-* How to setup git repository, and push files to the repository
+* Navigate through your Windows system using Command Prompt.
+* Setup Git repository, and push files to the repository.
 * Create program files using VIM text editor, and running them using via Command Prompt.
 
 ---
 
 ## Software Versions
 
-This guide uses version 21H2 of Windows 11 on Dell XPS 13. 
+We have used version 21H2 of Windows 11 on Dell XPS 13. 
 
 If you do not have Windows operating system, download the latest version of Microsoft Windows operating system [here](https://www.microsoft.com/en-ca/software-download/windows11). 
 
@@ -54,12 +54,12 @@ If you want to use a virtual machine, download the latest version of VirtualBox 
 
 ## Prerequisites
 
-In order to successfully complete this guide, please make sure you have the following listed items before starting:
+In order to successfully complete this guide, please make sure you access to the following listed items before starting:
 
-- Access to a computer with a keyboard and mouse
-- Any version of Windows 11, preferably version 21H2
-- An internet connection, and
-- Basic undrestaing of a windows computer tasks.
+- Computer with a keyboard and mouse.
+- Any version of Windows 11, preferably version 21H2.
+- An internet connection.
+- Basic understanding of doing tasks on a Windows computer.
 
 ---
 
@@ -79,7 +79,7 @@ These instructions use the following typographic conventions.
 | Console output                       |   *`code`*    |     *`/c/Users/Don/Desktop`*                     |
 | Key terms and emphasis               |   _Italics_   |     _Root user_, _Kernel_, _Pathname_            |
 
-<br />
+<br/>
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: This is a note icon which indicates please pay attention to the following.
