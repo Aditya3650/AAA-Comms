@@ -180,6 +180,9 @@ When you perform the following preceding steps, you will be able to view the new
 
 ## Conclusion
 
-To conclude, we learned how to interact with Git and Github from CMD. We installed Git and signed up for a Github account. We configured Git by entering our credentials. In addition, we initialized a Git repository. We added files to cache, we committed the files to Git source control and we pushed the files to the Github cloud. Next, we will learn how to use the Vim text editor.
+To conclude, we learned how to interact with Git and Github from CMD. We installed Git and signed up for a Github account. We configured Git by entering our credentials. In addition, we initialized a Git repository. We added files to cache, we committed the files to Git source control and we pushed the files to the Github cloud.
+<br/>
+<br/>
+Next, we will learn how to use the Vim text editor.
 <br/>
 <br/>
