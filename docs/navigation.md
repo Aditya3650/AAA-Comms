@@ -121,6 +121,7 @@ When you have created the text file, you can add some content to your file by op
 <br/>
 ![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
 >> **Caution**: Be sure to save the changes you added to the text file and then close the notepad text editor.
+
 <br/>
 <br/>
 Now that you have created a text file with some content inside it.
