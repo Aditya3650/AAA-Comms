@@ -74,6 +74,8 @@ There are two type of commands that will be used to guide you through this demo.
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: The text inside `<...>` is<optional>
 <br/>
+<br/>
+<br/>
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: `.extention` is and example, however for the purpose of this guide we will use `.java` or `.c`.
@@ -91,10 +93,10 @@ Once the installation process is finished, in order to open Vim:
 *Image goes here!*
 <br/>
 <br/>
-**2.** Type in:
+**2.** Type in the following command and press **[Enter]**.
 <br/>
 <br/>
->`vim`, and press `Enter`.
+>`vim`
 
 <br/>
 <br/>
@@ -119,6 +121,11 @@ There are several way you can create a new file using Vim. We will focus on the 
 
 <br/>
 <br/>
+
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: For the purpose of this demo we will use `.c` or `.java`.
+<br/>
+<br/>
 *Image goes here!*
 <br/>
 <br/>
@@ -126,10 +133,6 @@ There are several way you can create a new file using Vim. We will focus on the 
 <br/>
 <br/>
 *Image goes here!*
-<br/>
-<br/>
->***For the purpose of this demo we will use `.c` or `.java`.***
-
 <br/>
 <br/>
 *Image goes here!*
@@ -249,6 +252,7 @@ In order to execute a `.c` file:
 This will create an executable file named <optional>.
 <br/>
 <br/>
+
 **2.** In order to run the executable file in your machine, in the same directory type in the name of the file and press **[Enter]**.
 <br/>
 <br/>
