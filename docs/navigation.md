@@ -38,6 +38,8 @@ A file system specifies how files and folders are stored and retrieved from memo
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: Anything inside `<...>` is optional.
+
+<br/>
 ---
 
 ## Explanation Of Absolute And Relative Path
