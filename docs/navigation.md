@@ -27,11 +27,12 @@ A file system specifies how files and folders are stored and retrieved from memo
 
 >| Command                           | Description                                                                                             |
 >| :--------                         | :------------------------------------------------------------------------------------------------------ |
->| `tobeadded`                       | ...                                                                                                     |
->| `tobeadded`                       | ...                                                                                                     |
->| `tobeadded`                       | ...                                                                                                     |
->| `tobeadded`                       | ...                                                                                                     |
->| `tobeadded`                       | ...                                                                                                     |
+>| `cd <absolute or relative path>`  | Changes the directory.                                           |
+>| `mkdir <directory name>`          | Makes directory/folder.                                          |
+>| `touch <file name>.txt`           | Creates a `.txt` file.                                           |
+>| `notepad <file name followed by file’s extension>`| Opens the specified file in notepad.             |
+>| `rename <full file name> <new file name followed by file’s extension>` | Renames the file.           |
+>| `move <file full name> <relative or absolute path of the new directory>` | Moves the file.           |
 
 ---
 
@@ -42,19 +43,19 @@ Windows uses a hierarchical file system structure. Various folders (also referre
 ![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
 >> **Caution**: C directory contains files and folders that Windows uses to operate. Deleting or altering the aforementioned files and directories may cause the operating system to crash and could potentially result in a total data loss. Do not mess around with files in the C directory. 
 
-C directory also contains a folder called “Users”. It contains the user accounts on your computer. These user accounts are stored as folders. Each of these User account folders contains the files and folders that casual users use to interact with Windows. These folders include Desktop folder, Downloads folder, Documents folder and Pictures.
+C directory also contains a folder called “Users”. It contains the user accounts on your computer. These user accounts are stored as folders. Each of these User account folders contain the files and folders that casual users use to interact with Windows. These folders include "Desktop", "Downloads", "Documents" and "Pictures" folder.
 
-Windows uses a thing called a path to indicate the hierarchical relationship between various directories. A path indicates where a folder is stored with respect to another directory that is higher up the hierarchy. In other words, a path indicates how many levels below a higher directory a lower directory is stored. See the following for an example of a path:
+Windows uses path to indicate the hierarchical relationship between various directories. A path indicates where a folder is stored with respect to another directory that is higher up the hierarchy. In other words, a path indicates how many levels below a higher directory a lower directory is stored. The following is an example of a path:
 
-*`C:\Users\tom\Desktop`
+`C:\Users\tom\Desktop`
 
 The aforementioned line indicates that there is a folder called “Users” within a folder called “C”, and that there is a folder called “tom” within the “Users” folder, and that there is a folder called “Desktop” within the “tom” folder. As you can see, there is a hierarchical relationship between these folders in the path. That is, these folders are nested within each other. 
 
-There are two types of paths on Windows. Absolute path and relative path. The path shown above is an example of an absolute path. An absolute path specifies the location of the folder with respect to the root directory or the C directory.
+There are two types of paths on Windows. Absolute path and relative path. The path shown above is an example of an absolute path. An absolute path specifies the location of the folder with respect to the root directory or the "C" directory.
 
 On the other hand, a relative path specifies the path with respect to some other directory higher up the hierarchy but not the root directory. That is, if two directories are stored within the same directory and we want to go from the first directory to the second directory, we do not have to necessarily provide the absolute path of the second directory. We can just provide the relative path to the directory that contains these two directories to switch to the second directory.   
 
-Now that we have discussed the file system structure on Windows, we will introduce some Command Prompt commands that can be used to navigate through the file system on Windows.
+Now, that we have discussed the file system structure on Windows, we will introduce some CMD commands that can be used to navigate through the file system on Windows.
 
 ---
 
@@ -67,7 +68,10 @@ We will begin by creating a directory and then we will create a text file within
 *Image goes here!*
 <br/>
 <br/>
-**2.** Once you open the command prompt you must specify the directory where you wish to create your customized directory in. In other words, you must specify the parent directory that will contain your directory. To do so you must enter the “change directory” command followed by either the full path or the relative path to the parent directory.
+Once you open the command prompt you must specify the directory where you wish to create your customized directory in. In other words, you must specify the parent directory that will contain your directory.
+<br/>
+<br/>
+**2.** Enter the “change directory” command followed by either the absolute path or the relative path to the parent directory.
 <br/>
 <br/>
 `cd <absolute or relative path>`
@@ -106,13 +110,17 @@ We will begin by creating a directory and then we will create a text file within
 When you have created the text file, you can add some content to your file by opening the file with Windows default text editor “notepad”.
 <br/>
 <br/>
-**6.** Type the “notepad” command followed by the name of the file and the file’s extension(a file’s full name is the actual name of the file followed by its file extension). When you type the notepad command, the notepad text editor opens up and you can add content to your file. Be sure to save the changes you added to the text file and then close the notepad text editor.
+**6.** Type the “notepad” command followed by the name of the file and the file’s extension(a file’s full name is the actual name of the file followed by its extension). When you type the notepad command, the notepad text editor opens up and you can add content to your file.
 <br/>
 <br/>
 `notepad <file name followed by file’s extension>`
 <br/>
 <br/>
 *Image goes here!*
+<br/>
+<br/>
+![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
+>> **Caution**: Be sure to save the changes you added to the text file and then close the notepad text editor.
 <br/>
 <br/>
 Now that you have created a text file with some content inside it.
