@@ -38,8 +38,9 @@ A file system specifies how files and folders are stored and retrieved from memo
 ## Explanation Of Absolute And Relative Path
 Windows uses a hierarchical file system structure. Various folders (also referred to as directories0 nested within other folders. The folder that is on the top of the hierarchy is called the root folder. The root folder on Windows is called “C” directory. This is the highest directory and contains other folders and files on Windows. 
 
-*insert warning here*
-C directory contains files and folders that Windows uses to operate. Deleting or altering the aforementioned files and directories may cause the operating system to crash and could potentially result in a total data loss. Do not mess around with files in the C directory. 
+
+![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
+>> **Caution**: C directory contains files and folders that Windows uses to operate. Deleting or altering the aforementioned files and directories may cause the operating system to crash and could potentially result in a total data loss. Do not mess around with files in the C directory. 
 
 C directory also contains a folder called “Users”. It contains the user accounts on your computer. These user accounts are stored as folders. Each of these User account folders contains the files and folders that casual users use to interact with Windows. These folders include Desktop folder, Downloads folder, Documents folder and Pictures.
 
