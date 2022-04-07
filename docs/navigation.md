@@ -44,7 +44,7 @@ A file system specifies how files and folders are stored and retrieved from memo
 
 ---
 
-## Explanation Of Absolute And Relative Path
+## Absolute And Relative Path
 Windows uses a hierarchical file system structure. Various folders (also referred to as directories0 nested within other folders. The folder that is on the top of the hierarchy is called the root folder. The root folder on Windows is called “C” directory. This is the highest directory and contains other folders and files on Windows. 
 
 
