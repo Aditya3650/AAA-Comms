@@ -24,7 +24,6 @@ A file system specifies how files and folders are stored and retrieved from memo
 ---
 
 ## Useful Commands
-
 <br/>
 
 >| Command                           | Description                                                                                             |
