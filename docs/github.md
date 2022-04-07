@@ -29,6 +29,8 @@ Once you have signed up for a Github account, you must install Git on your machi
 
 ## Useful Commands
 
+<br/>
+
 >| Command                           | Description                                                                                             |
 >| :--------                         | :------------------------------------------------------------------------------------------------------ |
 >| `git config --global user.name <Your name here>`| Configures Git on your machine using your name. |
@@ -37,6 +39,8 @@ Once you have signed up for a Github account, you must install Git on your machi
 >| `git add <file name>` | Adds files to the local repository. |
 >| `git commit -m"message explaining your intention for making a change"` | Adds a commit message. |
 >| `git push` | Pushes the files to cloud. |
+
+<br/>
 
 ---
 
