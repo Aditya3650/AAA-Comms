@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create A Github Repository Using Command Prompt
+title: Create A Github Repository
 nav_order: 3
 has_children: false
 permalink: /docs/github
@@ -12,9 +12,11 @@ permalink: /docs/github
 
 In this section you will learn basic Git commands, and how to create a Github repository using command prompt. 
 <br/>
-In order to be able to use Github you must first sign up for a Github account. Please refer to the following link to signup for a [Github](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) account.
 <br/>
-Once you have signed up for a Github account, you must install Git on your machine. Please refer to the following link to install [Git](https://git-scm.com/downloads) on your machine.
+In order to be able to use Github you must first sign up for a Github account. Please refer to the following link to sign up for [Github](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
+<br/>
+<br/>
+Once you have signed up for a Github account, you must install Git on your machine. Please refer to the following link to install [Git](https://git-scm.com/downloads).
 
 ---
 
@@ -29,17 +31,18 @@ Once you have signed up for a Github account, you must install Git on your machi
 
 >| Command                           | Description                                                                                             |
 >| :--------                         | :------------------------------------------------------------------------------------------------------ |
->| `tobeadded`                       | ...                                                                                                     |
->| `tobeadded`                       | ...                                                                                                     |
->| `tobeadded`                       | ...                                                                                                     |
->| `tobeadded`                       | ...                                                                                                     |
->| `tobeadded`                       | ...                                                                                                     |
+>| `git config --global user.name <Your name here>`| Configures Git on your machine using your name. |
+>| `git config --global user.email <your_email@example.com>` | Configures Git on your machine using your email address. |
+>| `git config --global -list` | Displays your Git information. |
+>| `git add <file name>` | Adds files to the local repository. |
+>| `git commit -m"message explaining your intention for making a change"` | Adds a commit message. |
+>| `git push` | Pushes the files to cloud. |
 
 ---
 
 ## How to configure Git On Your Machine
 
-When you have installed Git on your machine you must set it up by entering your credentials. You will need to enter your full name and your email account that you used to sign up for a Github account. Once you have entered your credentials, an email will be sent to the email account you used to authenticate your identity.
+When you have installed Git on your machine you must set it up by entering your credentials. Once you have entered your credentials, an email will be sent to the email account you used to authenticate your identity.
 <br/>
 <br/>
 In order to do the aforementioned tasks please perform the following step:
@@ -48,7 +51,7 @@ In order to do the aforementioned tasks please perform the following step:
 **1.** Open Command Prompt.
 <br/>
 <br/>
-**2.** Type the command:
+**2.** Type the following command to configure your account on your machine.
 <br/>
 <br/>
 >`git config --global user.name <Your name here>`
