@@ -3,7 +3,7 @@ layout: default
 title: Troubleshooting
 nav_order: 6
 has_children: false
-permalink: /
+permalink: /docs/troubleshooting
 
 ---
 

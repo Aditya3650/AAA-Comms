@@ -3,7 +3,8 @@ layout: default
 title: Navigate Through Windows File System
 nav_order: 2
 has_children: false
-permalink: /
+permalink: /docs/navigation
+
 ---
 
 # Navigate Through Windows File System

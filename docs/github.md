@@ -3,7 +3,7 @@ layout: default
 title: Create A Github Repository Using Command Prompt
 nav_order: 4
 has_children: false
-permalink: /
+permalink: /docs/github
 
 ---
 

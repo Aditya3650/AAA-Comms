@@ -3,7 +3,7 @@ layout: default
 title: Glossary
 nav_order: 5
 has_children: false
-permalink: /
+permalink: /docs/glossary
 
 ---
 

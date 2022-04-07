@@ -3,7 +3,8 @@ layout: default
 title: Introduction
 nav_order: 1
 has_children: false
-permalink: /
+permalink: /docs/introduction
+
 ---
 
 {: .fs-6 .fw-300 }

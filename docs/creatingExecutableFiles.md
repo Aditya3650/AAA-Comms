@@ -3,7 +3,8 @@ layout: default
 title: Creating Executable Files
 nav_order: 3
 has_children: false
-permalink: /docs/Creating executable files
+permalink: /docs/creatingExecutableFiles
+
 ---
 
 {: .fs-6 .fw-300 }
