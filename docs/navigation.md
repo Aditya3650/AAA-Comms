@@ -34,6 +34,10 @@ A file system specifies how files and folders are stored and retrieved from memo
 >| `rename <full file name> <new file name followed by file’s extension>` | Renames the file.           |
 >| `move <file full name> <relative or absolute path of the new directory>` | Moves the file.           |
 
+<br/>
+
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: Anything inside `<...>` is optional.
 ---
 
 ## Explanation Of Absolute And Relative Path
