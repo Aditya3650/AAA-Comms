@@ -124,6 +124,7 @@ There are several way you can create a new file using Vim. We will focus on the 
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 >> **Note**: For the purpose of this demo we will use `.c` or `.java`.
+
 <br/>
 <br/>
 *Image goes here!*
