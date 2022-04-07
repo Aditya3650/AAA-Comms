@@ -41,6 +41,7 @@ A file system specifies how files and folders are stored and retrieved from memo
 >> **Note**: Anything inside `<...>` is optional.
 
 <br/>
+
 ---
 
 ## Explanation Of Absolute And Relative Path
