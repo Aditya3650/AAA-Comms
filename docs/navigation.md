@@ -84,7 +84,8 @@ Once you open the command prompt you must specify the directory where you wish t
 **2.** Enter the “change directory” command followed by either the absolute path or the relative path to the parent directory.
 <br/>
 <br/>
-`cd <absolute or relative path>`
+>`cd <absolute or relative path>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -93,7 +94,8 @@ Once you open the command prompt you must specify the directory where you wish t
 **3.** Create another directory by typing the “make directory” command followed by the name of the directory.
 <br/>
 <br/>
-`mkdir <directory name>`
+>`mkdir <directory name>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -102,7 +104,8 @@ Once you open the command prompt you must specify the directory where you wish t
 **4.** Move within the directory by typing “change directory” command followed by the name of the directory.
 <br/>
 <br/>
-`cd <directory name>`
+>`cd <directory name>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -111,7 +114,8 @@ Once you open the command prompt you must specify the directory where you wish t
 **5.** Create a text file. To do so you must type the “touch” command followed by the name of the file and then the file extension which is in our case a “.txt” file extension. 
 <br/>
 <br/>
-`touch <file name>.txt`
+>`touch <file name>.txt`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -123,7 +127,8 @@ When you have created the text file, you can add some content to your file by op
 **6.** Type the “notepad” command followed by the name of the file and the file’s extension(a file’s full name is the actual name of the file followed by its extension). When you type the notepad command, the notepad text editor opens up and you can add content to your file.
 <br/>
 <br/>
-`notepad <file name followed by file’s extension>`
+>`notepad <file name followed by file’s extension>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -140,7 +145,8 @@ Now that you have created a text file with some content inside it.
 **7.** Rename the text file. To do so type the “rename” command followed by the full name of the file(a file name followed by its extension) you want to rename followed by the new name of the file followed by the file’s extension. 
 <br/>
 <br/>
-`rename <full file name> <new file name followed by file’s extension>`
+>`rename <full file name> <new file name followed by file’s extension>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -152,7 +158,8 @@ Now that we have renamed our text file, we must create another directory and the
 **8.** Create the new directory within the current directory we are in. 
 <br/>
 <br/>
-`mkdir <new directory name>`
+>`mkdir <new directory name>`
+
 <br/>
 <br/>
 *Image goes here!*
@@ -164,7 +171,8 @@ Then we will copy the text file to the new directory we created.
 **9.** Copy the text file name followed by the relative or absolute path to the new directory.
 <br/>
 <br/>
-`move <file full name> <relative or absolute path of the new directory>`
+>`move <file full name> <relative or absolute path of the new directory>`
+
 <br/>
 <br/>
 ***Success***
