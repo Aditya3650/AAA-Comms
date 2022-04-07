@@ -25,6 +25,8 @@ A file system specifies how files and folders are stored and retrieved from memo
 
 ## Useful Commands
 
+<br/>
+
 >| Command                           | Description                                                                                             |
 >| :--------                         | :------------------------------------------------------------------------------------------------------ |
 >| `cd <absolute or relative path>`  | Changes the directory.                                           |
