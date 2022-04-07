@@ -69,7 +69,9 @@ Now, that we have discussed the file system structure on Windows, we will introd
 
 ## Handling Files Using Command Prompt
 
-We will begin by creating a directory and then we will create a text file within the directory in question. Then we will add a sentence to that text file and then we will rename the text file. Then we will create another directory and then we will move the text file to the second directory we created. In order to do the preceding please perform the following steps: 
+We will begin by creating a directory and then we will create a text file within the directory in question. Then we will add a sentence to that text file and then we will rename the text file. Then we will create another directory and then we will move the text file to the second directory we created. In order to do the preceding please perform the following steps:
+<br/>
+<br/>
 **1.** Open command Prompt.
 <br/>
 <br/>
