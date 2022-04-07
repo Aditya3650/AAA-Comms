@@ -14,9 +14,7 @@ permalink: /docs/introduction
 
 ---
 
-Microsoft command prompt is a program that allows users to interact with the operating system using a set of short commands. We can use command prompt to create files, create folders, connect to a wifi connection, and all kinds of tasks. Virtually every functionality of a Windows machine can be accomplished using command prompt. This guide teaches you how to navigate through Windows file system, how to create a Github repository, and how to install and use command prompt text editor.
-
-This guide assumes that you have a Windows machine and you know the basics to use it. We assume you can perform casual tasks such as opening a file, creating a folder, and installing programs on your machine. In addition, we assume you are already familiar with using Git and Github. 
+Microsoft command prompt is a program that allows users to interact with the operating system using a set of short commands. We can use command prompt to create files, create folders, connect to a wifi connection, and all kinds of tasks. Virtually every functionality of a Windows machine can be accomplished using command prompt. This guide teaches you how to navigate through Windows file system, how to create a Github repository, and how to install and use command prompt text editor. 
 
 ---
 
@@ -33,7 +31,7 @@ This guide assumes that you have a Windows machine and you know the basics to us
 
 ## Is This Guide For You
 
-The guide is targeted towards CST students starting term 1. What you will be learning can be summarized as following:
+This guide assumes that you have a Windows machine and you know the basics to use it. We assume you can perform casual tasks such as opening a file, creating a folder, and installing programs on your machine. In addition, we assume you are already familiar with using Git and Github. The guide is targeted towards CST students starting term 1. What you will be learning can be summarized as following:
 
 >* Navigate through your Windows system using Command Prompt.
 >* Setup Git repository, and push files to the repository.
