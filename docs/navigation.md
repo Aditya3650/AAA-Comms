@@ -84,7 +84,7 @@ Once you open the command prompt you must specify the directory where you wish t
 <br/>
 **2.** Enter the “change directory” command followed by either the absolute path or the relative path to the parent directory.
 <br/>
->`cd <absolute or relative path>`>
+
 
 <br/>
 <br/>
