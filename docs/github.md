@@ -82,7 +82,7 @@ In order to do the aforementioned tasks please perform the following step:
 Once you have entered your credentials, you can double check your credentials by typing the following command on Command Prompt:
 <br/>
 <br/>
->`git config --global -list`
+>`git config --global --list`
 
 <br/>
 <br/>
