@@ -44,7 +44,7 @@ Once you have signed up for a Github account, you must install Git on your machi
 
 ---
 
-## How to configure Git On Your Machine
+## How To Configure Git On Your Machine
 
 When you have installed Git on your machine you must set it up by entering your credentials. Once you have entered your credentials, an email will be sent to the email account you used to authenticate your identity.
 <br/>
@@ -129,9 +129,8 @@ To create a Github repository do the following steps:
 <br/>
 Once you are within the directory/folder you created for your Github repository, you must turn that directory into a Github repository. To do so must type command `git init`. When you type the initialize command, the directory you created turns into a Github repository.
 <br/>
-Inside this new repository, there is a folder named “.git”. This folder stores the internal files and information Git and Github use to function.
-
-**Caution** Do not touch this folder.
+![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
+**Caution**: Inside this new repository, there is a folder named “.git”. This folder stores the internal files and information Git and Github use to function. Do not touch this folder.
 
 ---
 
@@ -169,7 +168,7 @@ To push a file to the Github cloud you must add that folder to the cache. Then y
 *Image goes here!*
 <br/>
 <br/>
-When you perform the following preceding steps, you will be able to view the new files/folders on Github’s server by logging to your Github account through your browser.
+When you perform the aforementioned steps, you will be able to view the new files/folders on Github’s server by logging to your Github account through your browser.
 <br/>
 <br/>
 *Image goes here!*
