@@ -83,6 +83,8 @@ These instructions use the following typographic conventions.
 ---
 
 ## Conclusion
-...
+The Command Prompt is not the most visually appealing tool. It might seem like an advanced tool for the beginners, but it only takes a little trial error to get comfortable with it. It is great for carrying out a plethora of commands, and anyone working in the tech industry is expected to be familiar with it.
+
+With the introduction out of the way, let us jump right into teaching you some of the basics of working with the Command Prompt. We recommend you begin by looking at [Navigate Through Windows File System](https://aditya3650.github.io/AAA-Comms/docs/navigation).
 
 ![Linux mascot](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/tux.png?raw=true "Tux"){: .d-flex style="justify-content: center"}
