@@ -17,7 +17,7 @@ permalink: /docs/creatingExecutableFiles
 As command prompt allows you to accomplish regular tasks on your machine by simply utilizing the keyboard, it is fair to mention that coding is also possible using the command prompt interface. In this section of the guide we will be using Vim (Vi Improved), a screen-based text editor to;
 <br/>
 <br/>
-**1.** Create a `C` or `java` file
+**1.** Create a `C` or `Java` file
 <br/>
 **2.** Write code into `.c` or `.java` file
 <br/>
@@ -300,6 +300,6 @@ This will create an executable file with the same named `Optional.class`.
 
 ## Conclusion
 
-To summarize, we installed Vim, and then we created C or Java file using Vim. We learned what `insert` mode and `control` mode are, and we learned how to use them. We saved the changes and we exited vim using vim’s control commands.
+To summarize, we installed Vim, and then we created C or Java file using Vim. We learned what `insert` mode and `control` mode are, and we learned how to use them. We saved the changes and we exited using vim’s control commands.
 <br/>
 <br/> 
