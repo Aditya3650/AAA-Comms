@@ -76,7 +76,7 @@ We will begin by creating a directory and then creating a text file within that 
 **1.** Open command Prompt.
 <br/>
 <br/>
-*Image goes here!*
+![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step1.png)
 <br/>
 <br/>
 Once you open the command prompt you must specify the directory where you wish to create your customized directory in. In other words, you must specify the parent directory that will contain your newly-created directory.
