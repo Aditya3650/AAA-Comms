@@ -76,7 +76,7 @@ We will begin by creating a directory and then creating a text file within that 
 **1.** Open command Prompt.
 <br/>
 <br/>
-![first](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step1.png?raw=true){: style="float: left" }
+![first](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step1.png?raw=true)
 <br/>
 <br/>
 Once you open the command prompt you must specify the directory where you wish to create your customized directory in. In other words, you must specify the parent directory that will contain your newly-created directory.
@@ -88,7 +88,7 @@ Once you open the command prompt you must specify the directory where you wish t
 
 <br/>
 <br/>
-![second](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step2.png?raw=true){: style="float: left" }
+![second](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step2.png?raw=true)
 <br/>
 <br/>
 **3.** Create another directory by typing the “make directory” command followed by the name of the directory.
@@ -97,7 +97,7 @@ Once you open the command prompt you must specify the directory where you wish t
 
 <br/>
 <br/>
-![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step3.png)
+![third](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step3.png?raw=true)
 <br/>
 <br/>
 **4.** Move within the directory by typing “change directory” command followed by the name of the directory.
@@ -106,7 +106,7 @@ Once you open the command prompt you must specify the directory where you wish t
 
 <br/>
 <br/>
-![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step4.png)
+![fourth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step4.png?raw=true)
 <br/>
 <br/>
 **5.** Create a text file and add some text to it at the same time. To do so you must type the “echo” command followed by the message in the file and then an angle bracket followed by the file name and extension which is a “.txt” in our case. 
@@ -115,7 +115,7 @@ Once you open the command prompt you must specify the directory where you wish t
 
 <br/>
 <br/>
-![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step5.png)
+![fifth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step5.png?raw=true)
 <br/>
 <br/>
 Now that you have created a text file with some content inside it.
@@ -127,7 +127,7 @@ Now that you have created a text file with some content inside it.
 
 <br/>
 <br/>
-![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step6.png)
+![sixth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step6.png?raw=true)
 <br/>
 <br/>
 Now that we have renamed our text file, we must create another directory and then move the text file to the new directory.
@@ -139,7 +139,7 @@ Now that we have renamed our text file, we must create another directory and the
 
 <br/>
 <br/>
-![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step7.png)
+![seventh](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step7.png?raw=true)
 <br/>
 <br/>
 Then we will copy the text file to the new directory we created.
@@ -150,7 +150,7 @@ Then we will copy the text file to the new directory we created.
 >`move <file full name> <relative or absolute path of the new directory>`
 <br/>
 <br/>
-![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step8.png)
+![eight](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step8.png?raw=true)
 <br/>
 <br/>
 ***Success***
