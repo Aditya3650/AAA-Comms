@@ -88,7 +88,7 @@ Once you open the command prompt you must specify the directory where you wish t
 
 <br/>
 <br/>
-![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step2.png)
+![](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/navigation/step1.png)
 <br/>
 <br/>
 **3.** Create another directory by typing the “make directory” command followed by the name of the directory.
