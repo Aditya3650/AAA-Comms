@@ -111,7 +111,7 @@ Once you open the command prompt you must specify the directory where you wish t
 <br/>
 **5.** Create a text file and add some text to it at the same time. To do so you must type the “echo” command followed by the message in the file and then an angle bracket followed by the file name and extension which is a “.txt” in our case. 
 <br/>
->`touch <message in the text file> > <file name>.txt`
+>`echo <message in the text file> > <file name>.txt`
 
 <br/>
 <br/>
