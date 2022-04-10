@@ -109,38 +109,21 @@ Once you open the command prompt you must specify the directory where you wish t
 *Image goes here!*
 <br/>
 <br/>
-**5.** Create a text file. To do so you must type the “touch” command followed by the name of the file and then the file extension which is in our case a “.txt” file extension. 
+**5.** Create a text file and add some text to it at the same time. To do so you must type the “echo” command followed by the message in the file and then an angle bracket followed by the file name and extension which is a “.txt” in our case. 
 <br/>
->`touch <file name>.txt`
+>`echo <message in the text file> > <file name>.txt`
 
 <br/>
 <br/>
 *Image goes here!*
-<br/>
-<br/>
-When you have created the text file, you can add some content to your file by opening the file with Windows default text editor “notepad”.
-<br/>
-<br/>
-**6.** Type the “notepad” command followed by the name of the file and the file’s extension(a file’s full name is the actual name of the file followed by its extension). When you type the notepad command, the notepad text editor opens up and you can add content to your file.
-<br/>
->`notepad <file name followed by file’s extension>`
-
-<br/>
-<br/>
-*Image goes here!*
-<br/>
-<br/>
-![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
->> **Caution**: Be sure to save the changes you added to the text file and then close the notepad text editor.
-
 <br/>
 <br/>
 Now that you have created a text file with some content inside it.
 <br/>
 <br/>
-**7.** Rename the text file. To do so type the “rename” command followed by the full name of the file(a file name followed by its extension) you want to rename followed by the new name of the file followed by the file’s extension. 
+**6.** Rename the text file. To do so type the “rename” command followed by the full name of the file(a file name followed by its extension) you want to rename followed by the new name of the file followed by the file’s extension. 
 <br/>
->`rename <full file name> <new file name followed by file’s extension>`
+>`rename <full file name followed by file’s extension> <new file name followed by file’s extension>`
 
 <br/>
 <br/>
@@ -150,7 +133,7 @@ Now that you have created a text file with some content inside it.
 Now that we have renamed our text file, we must create another directory and then move the text file to the new directory.
 <br/>
 <br/>
-**8.** Create the new directory within the current directory we are in. 
+**7.** Create the new directory within the current directory we are in. 
 <br/>
 >`mkdir <new directory name>`
 
@@ -162,7 +145,7 @@ Now that we have renamed our text file, we must create another directory and the
 Then we will copy the text file to the new directory we created.
 <br/>
 <br/>
-**9.** Copy the text file name followed by the relative or absolute path to the new directory.
+**8.** Copy the text file name followed by the relative or absolute path to the new directory.
 <br/>
 >`move <file full name> <relative or absolute path of the new directory>`
 
