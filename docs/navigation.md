@@ -123,7 +123,7 @@ Now that you have created a text file with some content inside it.
 <br/>
 **6.** Rename the text file. To do so type the “rename” command followed by the full name of the file(a file name followed by its extension) you want to rename followed by the new name of the file followed by the file’s extension. 
 <br/>
->`rename <full file name> <new file name followed by file’s extension>`
+>`rename <full file name followed by file’s extension> <new file name followed by file’s extension>`
 
 <br/>
 <br/>
