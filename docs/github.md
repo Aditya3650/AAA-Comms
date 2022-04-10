@@ -127,7 +127,10 @@ To create a Github repository do the following steps:
 *Image goes here!*
 <br/>
 <br/>
-Once you are within the directory/folder you created for your Github repository, you must turn that directory into a Github repository. To do so must type command `git init`. When you type the initialize command, the directory you created turns into a Github repository.
+**5.**Once you are within the directory/folder you created for your Github repository, you must turn that directory into a Github repository. To do so must type command `git init`. When you type the initialize command, the directory you created turns into a Github repository.
+<br/>
+*Image goes here!*
+<br/>
 <br/>
 ![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
 **Caution**: Inside this new repository, there is a folder named “.git”. This folder stores the internal files and information Git and Github use to function. Do not touch this folder.
