@@ -50,7 +50,7 @@ There are two type of commands that will be used to guide you through this demo.
 
 >| Command                           | Description                                                                                             |
 >| :--------                         | :------------------------------------------------------------------------------------------------------ |
->| `vim <file name>.extention`        | Creates `<file name>.extention` if does not exist, and opens `<file name>.extention` for editing.         |
+>| `vim <file name>.extension`        | Creates `<file name>.extension` if does not exist, and opens `<file name>.extension` for editing.         |
 >| `gcc -o <optional> <file name>.c`  | Compiles the file <file name>c` and creates and creates an executable file named `<optional>`.           |
 >| `./<optional>`                    | Executes the executable file named `<optional>`.                                                        |
 >| `javac [Optional].java`           | Compiles the java file named `[Optional].java` and creates and executable file named `Optional.class`.  |
@@ -65,7 +65,7 @@ There are two type of commands that will be used to guide you through this demo.
 >| :--------                         | :------------------------------------------------------------------------------------------------------ |
 >| `:e <file name>`                   | Opens `<file name>` for editing.                                                                         |
 >| `:w`                              | Saves the content written to the file.                                                                  |
->| `:sav <file name>.extention`             | Saves the file as `<file name>.extention`.                                                                     |
+>| `:sav <file name>.extension`             | Saves the file as `<file name>.extension`.                                                                     |
 >| `:q`                              | Quits Vim.                                                                                              |
 >| `:q!`                             | Quits Vim without saving.                                                                               |
 
@@ -78,7 +78,7 @@ There are two type of commands that will be used to guide you through this demo.
 <br/>
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
->> **Note**: `.extention` is and example, however for the purpose of this guide we will use `.java` or `.c`.
+>> **Note**: `.extension` is and example, however for the purpose of this guide we will use `.java` or `.c`.
 
 ---
 
@@ -90,7 +90,7 @@ Once the installation process is finished, in order to open Vim:
 **1.** Using command prompt navigate to the desired folder location on your machine
 <br/>
 <br/>
-*Image goes here!*
+![firstfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step11.png?raw=true)
 <br/>
 <br/>
 **2.** Type in the following command and press **[Enter]**.
@@ -100,7 +100,7 @@ Once the installation process is finished, in order to open Vim:
 
 <br/>
 <br/>
-*Image goes here!*
+![firstsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step12.png?raw=true)
 <br/>
 <br/>
 At this point, you should be able to see the Vim text editor interface on your command prompt window.
@@ -127,13 +127,13 @@ There are several way you can create a new file using Vim. We will focus on the 
 
 <br/>
 <br/>
-*Image goes here!*
+![secondfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step21.png?raw=true)
 <br/>
 <br/>
 **2.** Once you have choosen a file name and the appropriate extention press **[Enter]** on your keyboard.
 <br/>
 <br/>
-*Image goes here!*
+![secondsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step22.png?raw=true)
 <br/>
 <br/>
 *Image goes here!*
@@ -145,13 +145,13 @@ At this point the Vim text editor interface must open in command prompt window.
 **3.** Press **[i]** to enter insert mode.
 <br/>
 <br/>
-*Image goes here!*
+![secondthird](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step23.png?raw=true)
 <br/>
 <br/>
 **4.** To exit insert mode press **[Esc]**.
 <br/>
 <br/>
-*Image goes here!*
+![secondfourth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step24.png?raw=true)
 <br/>
 <br/>
 **5.** Type in the following to save the file and the contents of it.
@@ -161,7 +161,7 @@ At this point the Vim text editor interface must open in command prompt window.
 
 <br/>
 <br/>
-*Image goes here!*
+![secondfifth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step25.png?raw=true)
 <br/>
 <br/>
 **6.** To quit Vim without saving the file, type in the following, and press **[Enter]**.
@@ -171,8 +171,9 @@ At this point the Vim text editor interface must open in command prompt window.
 
 <br/>
 <br/>
-*Image goes here!*
+![secondsixthfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step261.png?raw=true)
 <br/>
+![secondsixthsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step262.png?raw=true)
 <br/>
 **7.** In order to quit Vim use the following command.
 <br/>
@@ -181,8 +182,9 @@ At this point the Vim text editor interface must open in command prompt window.
 
 <br/>
 <br/>
-*Image goes here!*
+![secondseventhfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step271.png?raw=true)
 <br/>
+![secondseventhsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step272.png?raw=true)
 <br/>
 ***Success***
 <br/>
@@ -193,19 +195,19 @@ The second approach uses Vim interface to save the file after putting all the co
 **1.** In the command prompt type in `vim`, and press `Enter`.
 <br/>
 <br/>
-*Image goes here!*
+![thirdfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step31.png?raw=true)
 <br/>
 <br/>
 **2.** Press **[i]** to enter `insert` mode.
 <br/>
 <br/>
-*Image goes here!*
+![thirdsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step32.png?raw=true)
 <br/>
 <br/>
 **3.** To exit `insert` mode press *[Esc].
 <br/>
 <br/>
-*Image goes here!*
+![thirdthird](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step33.png?raw=true)
 <br/>
 <br/>
 **4.** Now, type in the following command to save the file with the given extention, and press **[Enter]**.
@@ -215,7 +217,7 @@ The second approach uses Vim interface to save the file after putting all the co
 
 <br/>
 <br/>
-*Image goes here!*
+![thirdfourth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step34.png?raw=true)
 <br/>
 <br/>
 
@@ -227,7 +229,7 @@ The second approach uses Vim interface to save the file after putting all the co
 **5.** To quit vim type in `:q` and press **[Enter]**.
 <br/>
 <br/>
-*Image goes here!*
+![thirdfifth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step35.png?raw=true)
 <br/>
 <br/>
 ***Success***
