@@ -111,13 +111,13 @@ At this point, you should be able to see the Vim text editor interface on your c
 ---
 ## How To Create A File
 
-There are several way you can create a new file using Vim. We will focus on the ones we introduced earlier in the commands table, namely `vim <file name>.extention` and `:sav <file name>.extention`.
+There are several way you can create a new file using Vim. We will focus on the ones we introduced earlier in the commands table, namely `vim <file name>.extension` and `:sav <file name>.extension`.
 <br/>
 <br/>
 **1.** Type in the following in order to create the file and name it before putting its contents inside of it.
 <br/>
 <br/>
->`vim <file name>.extention`.
+>`vim <file name>.extension`.
 
 <br/>
 <br/>

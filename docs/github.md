@@ -55,13 +55,16 @@ In order to do the aforementioned tasks please perform the following step:
 **1.** Open Command Prompt.
 <br/>
 <br/>
+![firstfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step11.png?raw=true)
+<br/>
+<br/>
 **2.** Type the following command to configure your account on your machine.
 <br/>
 <br/>
 >`git config --global user.name <Your name here>`
 
 <br/>
-*Image goes here!*
+![firstsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step12.png?raw=true)
 <br/>
 <br/>
 **3.** Type the command:
@@ -70,21 +73,22 @@ In order to do the aforementioned tasks please perform the following step:
 >`git config --global user.email <your_email@example.com>`
 
 <br/>
-*Image goes here!*
+![firstthird](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step13.png?raw=true)
 <br/>
 <br/>
 **4.** Go to your email account, find the email from Git and authenticate your identity.
-<br/>
-<br/>
-*Image goes here!*
-<br/>
+
 <br/>
 Once you have entered your credentials, you can double check your credentials by typing the following command on Command Prompt:
+<br/>
+<br/>
+![firstfourth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step14.png?raw=true)
 <br/>
 <br/>
 >`git config --global --list`
 
 <br/>
+
 <br/>
 ***Success***
 
@@ -100,13 +104,13 @@ To create a Github repository do the following steps:
 **1.** Open Command Prompt.
 <br/>
 <br/>
-*Image goes here!*
+![secondfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step21.png?raw=true)
 <br/>
 <br/>
 **2.** Navigate to the desired directory where you want to store the Github repository.
 <br/>
 <br/>
-*Image goes here!*
+![secondsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step22.png?raw=true)
 <br/>
 <br/>
 **3.** Use the “mkdir” command to create a new folder.
@@ -115,7 +119,7 @@ To create a Github repository do the following steps:
 >`mkdir <file name>`
 
 <br/>
-*Image goes here!*
+![secondthird](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step23.png?raw=true)
 <br/>
 <br/>
 **4.** Go to the directory you created.
@@ -124,12 +128,12 @@ To create a Github repository do the following steps:
 >`cd <file name>`
 
 <br/>
-*Image goes here!*
+![secondfourth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step24.png?raw=true)
 <br/>
 <br/>
 **5.**Once you are within the directory/folder you created for your Github repository, you must turn that directory into a Github repository. To do so must type command `git init`. When you type the initialize command, the directory you created turns into a Github repository.
 <br/>
-*Image goes here!*
+![secondfifth](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step25.png?raw=true)
 <br/>
 <br/>
 ![Caution icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/caution.png?raw=true "Caution"){: style="float: left" }
@@ -150,7 +154,7 @@ To push a file to the Github cloud you must add that folder to the cache. Then y
 >`git add <file name>`
 
 <br/>
-*Image goes here!*
+![thirdfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step31.png?raw=true)
 <br/>
 <br/>
 **2.** Commit the file.
@@ -159,7 +163,7 @@ To push a file to the Github cloud you must add that folder to the cache. Then y
 >`git commit -m"message explaining your intention for making a change"`
 
 <br/>
-*Image goes here!*
+![thirdsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step32.png?raw=true)
 <br/>
 <br/>
 **3.** Push your file to cloud.
@@ -174,7 +178,7 @@ To push a file to the Github cloud you must add that folder to the cache. Then y
 When you perform the aforementioned steps, you will be able to view the new files/folders on Github’s server by logging to your Github account through your browser.
 <br/>
 <br/>
-*Image goes here!*
+![thirdthird](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/github/step33.png?raw=true)
 <br/>
 <br/>
 
