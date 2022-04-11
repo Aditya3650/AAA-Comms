@@ -172,7 +172,7 @@ At this point the Vim text editor interface must open in command prompt window.
 <br/>
 <br/>
 ![secondsixthfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step261.png?raw=true)
-<br/>
+<br/><br/><br/>
 ![secondsixthsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step262.png?raw=true)
 <br/>
 **7.** In order to quit Vim use the following command.
@@ -184,6 +184,7 @@ At this point the Vim text editor interface must open in command prompt window.
 <br/>
 ![secondseventhfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step271.png?raw=true)
 <br/>
+  <br/><br/>
 ![secondseventhsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step272.png?raw=true)
 <br/>
 ***Success***
