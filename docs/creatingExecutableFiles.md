@@ -249,7 +249,7 @@ In order to execute a `.c` file:
 
 <br/>
 <br/>
-*Image goes here!*
+![fourthfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step41.png?raw=true)
 <br/>
 <br/>
 This will create an executable file named <optional>.
@@ -263,7 +263,7 @@ This will create an executable file named <optional>.
 
 <br/>
 <br/>
-*Image goes here!*
+![fourthsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step42.png?raw=true)
 <br/>
 <br/>
 <br/>
@@ -280,7 +280,7 @@ To execute a `.java` file:
 
 <br/>
 <br/>
-*Image goes here!*
+![fifthfirst](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step51.png?raw=true)
 <br/>
 <br/>
 This will create an executable file with the same named `Optional.class`.
@@ -293,7 +293,7 @@ This will create an executable file with the same named `Optional.class`.
 
 <br/>
 <br/>
-*Image goes here!*
+![fifthsecond](https://github.com/Aditya3650/AAA-Comms/blob/gh-pages/docs/images/creatingExecutableFiles/step52.png?raw=true)
 <br/>
 <br/>
 ***Success***
